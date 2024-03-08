@@ -125,6 +125,7 @@ a:hover, a:focus {
     margin: 0 auto;
     flex-direction: column;
     align-content: center;
+    padding: 188px 0;
 }
 /* .hero-container { 
     margin: 0 auto;
@@ -158,15 +159,31 @@ a:hover, a:focus {
     color: #ffffff;
     cursor: pointer;
     margin: 48px 635px 188px 636px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .hero-btn:hover, .hero-btn:focus {
     background-color: #404BBF;
+}
+.benefits {
+    padding: 120px 0;
 }
 .benefits-header {
     font-weight: 500;
     font-size: 20px;
     color: #2E2F42;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+.benefits-list {
+    display: flex;
+    gap: 24px;
+}
+.benefits-list:nth-child(1) {
+    width: calc((100% - 72px) / 4);
 }
 .benefits-text {
     font-weight: 400;
@@ -178,6 +195,7 @@ a:hover, a:focus {
     text-align: center;
     color: #2E2F42;
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 .team-header {
     font-weight: 700;
@@ -185,27 +203,39 @@ a:hover, a:focus {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .team-list {
     background-color: #FFFFFF;
     text-align: center;
+    display: flex;
+    gap: 24px;
 }
 .team-item {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-item-header {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
+    text-align: center;
+}
+.team-member {
+
 }
 .team-item-text {
     color: #434455;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .portfolio {
     background-color: #E7E9FC;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .portfolio-header{
     font-weight: 700;
@@ -218,12 +248,20 @@ a:hover, a:focus {
 }
 .portfolio-item {
     background-color: #FFFFFF;
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-item-header {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .portfolio-item-text {
     font-weight: 400;
