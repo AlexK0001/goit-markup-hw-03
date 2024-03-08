@@ -75,7 +75,7 @@ a:hover, a:focus {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    margin-right: 76px;
+    /* margin-right: 76px; */
 }
 .header-logo {
     color: #2e2f42;
@@ -95,16 +95,15 @@ a:hover, a:focus {
 .contacts-tel {
     margin-left: 20px;
 }*/
-.header-nav {
+.header-list {
     font-weight: 500;
     color: #2E2F42;
     line-height: 1.5;
     margin-left: 38px;
     margin-right: 166px;
     align-content: space-between;
-    /* margin-left: 40px; 
-    margin-right: 40px;
-    max-width: 347px;*/
+    display: flex;
+    gap: 40px;
 }
 .header-contacts {
     font-weight: 400;
