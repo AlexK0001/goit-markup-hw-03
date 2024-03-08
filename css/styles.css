@@ -82,6 +82,7 @@ a:hover, a:focus {
 }
 .header-logo {
     color: #2e2f42;
+    margin-right: 76px;
 }
 .nav-container {  
     display: flex;
@@ -324,7 +325,7 @@ a:hover, a:focus {
 .logo-link {
     color: #f4f4fd;
 }
-.footer-logo {
+a .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
 }
