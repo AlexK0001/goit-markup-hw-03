@@ -42,7 +42,7 @@ a:hover, a:focus {
     /* margin-left: 20px; 
     margin-right: 20px;*/
     display: flex;
-    width: 1158px
+    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -286,6 +286,7 @@ a:hover, a:focus {
 .portfolio-app {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .portfolio-list {
     display: flex;
@@ -309,7 +310,7 @@ a:hover, a:focus {
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.footer-logo {
+.logo .footer-logo {
     color: #f4f4fd;
     display: inline-block;
     margin-bottom: 16px;
