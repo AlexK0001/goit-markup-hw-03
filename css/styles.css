@@ -53,8 +53,8 @@ a:hover, a:focus {
     flex-wrap: nowrap;
     margin-left: 20px;
     margin-right: 20px;
-    border-bottom: 1px solid #e7e9fc
-    width: 1158px;
+    border-bottom: 1px solid #e7e9fc;
+    
 }
 .header .container {
     display: flex;
@@ -80,7 +80,7 @@ a:hover, a:focus {
 }
 .header-logo {
     color: #2e2f42;
-    /* margin-right: 76px; */
+    margin-right: 76px;
 }
 .nav-container {  
     display: flex;
