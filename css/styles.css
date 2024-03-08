@@ -75,16 +75,20 @@ a:hover, a:focus {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    /* margin-right: 76px; */
+    margin-right: 76px;
 }
 .header-logo {
     color: #2e2f42;
-    margin-right: 76px;
+    /* margin-right: 76px; */
 }
 .nav-container {  
     display: flex;
     align-items: center;
     gap: 40px;
+}
+.menu {
+    display: flex;
+    gap: 40 px;
 }
 /* .address-container { 
     margin-left: 166px;
