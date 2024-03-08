@@ -54,6 +54,7 @@ a:hover, a:focus {
     margin-left: 20px;
     margin-right: 20px;
     border-bottom: 1px solid #e7e9fc
+    width: 1158px;
 }
 .header .container {
     display: flex;
