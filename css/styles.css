@@ -326,7 +326,7 @@ a:hover, a:focus {
 .logo-link {
     color: #f4f4fd;
 }
-.footer .logo .footer-logo {
+.container a {
     display: inline-block;
     margin-bottom: 16px;
 }
