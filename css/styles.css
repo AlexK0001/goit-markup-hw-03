@@ -7,6 +7,7 @@
     max-width: 1128px;
     padding-left: 156px;
     padding-right: 156px;
+    width: 1158px;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -325,7 +326,7 @@ a:hover, a:focus {
 .logo-link {
     color: #f4f4fd;
 }
-a .footer-logo {
+.footer .logo .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
 }
