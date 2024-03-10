@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 .container {
-    max-width: 1128px;
-    padding-left: 156px;
-    padding-right: 156px;
+    width: 1158px;
+    /* padding-left: 156px; 
+    padding-right: 156px;*/
 }
 body {
     font-family: "Roboto", sans-serif;
