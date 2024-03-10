@@ -137,10 +137,6 @@ a:hover, a:focus {
     display: flex;
     gap: 40px;
 }
-address ul {
-    display: flex;
-    gap: 40px;
-}
 /* .contacts-mail { 
     padding-right: 20px;
     padding-left: 166px;
