@@ -39,7 +39,7 @@ a:hover, a:focus {
     /* align-items: baseline; 
 }*/
 .header-container {
-    display: flex;
+    width: 1158px;
 }
 .header {
     background-color: #FFFFFF;
