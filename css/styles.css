@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .container {
-    max-width: 1158px;
+    max-width: 1128px;
     padding-left: 156px;
     padding-right: 156px;
 }
@@ -37,13 +37,10 @@ a:hover, a:focus {
     flex-wrap: nowrap;
     /* margin: 0 auto; */
     /* align-items: baseline; 
-}
+}*/
 .header-container {
     display: flex;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}*/
+}
 .header {
     background-color: #FFFFFF;
     font-size: 16px;
