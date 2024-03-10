@@ -82,7 +82,7 @@ a:hover, a:focus {
     color: #2e2f42;
     margin-right: 76px;
 }
-.nav-container {  
+/* .nav-container {   
     display: flex;
     align-items: center;
     gap: 40px;
@@ -90,7 +90,7 @@ a:hover, a:focus {
 .menu {
     display: flex;
     gap: 40 px;
-}
+}*/
 /* .address-container { 
     margin-left: 166px;
 }*/
