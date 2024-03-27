@@ -284,4 +284,13 @@ header .logo {
 footer .logo {
     display: inline-block;
     margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: #4d5ae5;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-right: 76px;
 }
